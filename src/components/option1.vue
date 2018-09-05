@@ -15,7 +15,7 @@
             </DropdownMenu>
         </Dropdown>
         
-        {{$t('home')}}
+        	{{$t('home')}}
 	</div>
 </template>
 

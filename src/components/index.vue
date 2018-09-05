@@ -82,7 +82,7 @@
 	  	}
 	  },
 	  mounted() {
-	  	
+	  	console.log(this.$route.path);
 	  },
 	};
 </script>
@@ -91,10 +91,10 @@
 
 .layout{
 	position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
     border: 1px solid #d7dde4;
     background: #f5f7f9;
     /*position: relative;*/
